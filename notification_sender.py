@@ -1,8 +1,8 @@
 from database import DB
 from twilio.rest import Client
 import threading
-account_sid = 'AC454b7467e17210f09fb9d769cfe12683'
-auth_token = '68b46ec666568b003fafa1ff4746d8d0'
+account_sid = $AC_ID
+auth_token = $AC_TOKEN
 client = Client(account_sid, auth_token)
 # start=time.time()
 
